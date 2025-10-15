@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Reggae Vibes — Belajar Web</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Righteous&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body class="bg-gradient-to-br from-green-600 via-yellow-400 to-red-600 text-gray-900 font-['Roboto'] min-h-screen flex flex-col">
+
+<!-- HEADER -->
+<header class="p-6 text-center bg-gradient-to-r from-red-600 via-yellow-400 to-green-600 text-white shadow-md border-b-4 border-yellow-300">
+  
+  <h1 class="text-4xl font-['Righteous'] tracking-widest mb-3">🎶 Reggae Vibes 🎶</h1>
+  <nav class="flex flex-wrap justify-center gap-4 text-lg">
+    <a href="#data" class="hover:text-yellow-200 transition">Data Diri</a>
+    <a href="#html" class="hover:text-yellow-200 transition">HTML</a>
+    <a href="#css" class="hover:text-yellow-200 transition">CSS</a>
+    <a href="#js" class="hover:text-yellow-200 transition">JavaScript</a>
+    <a href="#tailwind" class="hover:text-yellow-200 transition">Tailwind</a>
+    <a href="#kesan" class="hover:text-yellow-200 transition">Kesan & Pesan</a>
+  </nav>
+</header>
+
+
+  <main class="p-6 max-w-4xl mx-auto flex flex-col gap-8">
+
+    <section id="data" class="bg-white bg-opacity-90 p-6 rounded-xl shadow-xl border-4 border-yellow-400">
+      <h2 class="text-3xl font-['Righteous'] text-green-700 text-center mb-4">🔥 Data Diri 🔥</h2>
+        <div class="flex justify-center mb-4">
+    <div class="w-36 h-36 rounded-full overflow-hidden border-4 border-yellow-300 shadow-lg">
+      <img src="kkt.jpg" alt="Foto Profil" class="w-full h-full object-cover">
+    </div>
+  </div>  
+      <table class="w-full text-left text-lg border-collapse">
+        <tr class="border-b border-yellow-400"><th class="py-2 text-red-700">Nama</th><td>Arya Sona Ginting</td></tr>
+        <tr class="border-b border-yellow-400"><th class="py-2 text-red-700">NIM</th><td>241401100</td></tr>
+        <tr class="border-b border-yellow-400"><th class="py-2 text-red-700">Program Studi</th><td>S1 Ilmu Komputer</td></tr>
+        <tr class="border-b border-yellow-400"><th class="py-2 text-red-700">Universitas</th><td>Universitas Sumatera Utara</td></tr>
+        <tr class="border-b border-yellow-400"><th class="py-2 text-red-700">Tanggal Lahir</th><td>27 Juli 2006</td></tr>
+        <tr class="border-b border-yellow-400"><th class="py-2 text-red-700">Hobi</th><td>Musik, Modifikasi, Membaca</td></tr>
+        <tr><th class="py-2 text-red-700">Alamat</th><td>Berastagi Kab. Karo</td></tr>
+      </table>
+      <div class="mt-4 flex flex-col gap-2">
+        <a href="https://www.instagram.com/_arya00m/" target="_blank" class="text-blue-600"><i class="fab fa-instagram"></i> Instagram</a>
+        <a href="https://github.com/AryaSonaGinting/" target="_blank" class="text-gray-800"><i class="fab fa-github"></i> GitHub</a>
+        <a href="https://wa.me/082374366653" target="_blank" class="text-green-600"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+      </div>
+    </section>
+
+    <!-- HTML -->
+    <section id="html" class="bg-white bg-opacity-90 p-6 rounded-xl shadow-xl border-4 border-green-500">
+      <h2 class="text-3xl font-['Righteous'] text-green-800 text-center mb-4">🔥 Pengenalan HTML 🔥</h2>
+      <p class="text-lg mb-4"><span class="text-red-700 font-semibold">HTML</span> adalah bahasa markup untuk membuat struktur halaman web. Contoh sederhana:</p>
+      <pre class="bg-black text-green-400 p-4 rounded-lg overflow-auto shadow-inner">
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+  &lt;head&gt;&lt;title&gt;Halo&lt;/title&gt;&lt;/head&gt;
+  &lt;body&gt;&lt;h1&gt;Halo Dunia!&lt;/h1&gt;&lt;/body&gt;
+&lt;/html&gt;
+      </pre>
+      <p class="text-lg">Elemen penting: <b>&lt;h1&gt;-&lt;h6&gt;</b>, <b>&lt;p&gt;</b>, <b>&lt;a&gt;</b>, <b>&lt;img&gt;</b>, <b>&lt;table&gt;</b></p>
+    </section>
+
+    <!-- CSS -->
+    <section id="css" class="bg-white bg-opacity-90 p-6 rounded-xl shadow-xl border-4 border-yellow-400">
+      <h2 class="text-3xl font-['Righteous'] text-green-800 text-center mb-4">🔥 Pengenalan CSS 🔥</h2>
+      <p class="text-lg mb-4"><span class="text-red-700 font-semibold">CSS</span> digunakan untuk mempercantik tampilan web. Contoh sederhana:</p>
+      <pre class="bg-black text-green-400 p-4 rounded-lg overflow-auto shadow-inner">
+body {
+  background-color: #f0f0f0;
+  color: #333;
+  font-family: 'Poppins', sans-serif;
+}
+      </pre>
+      <p class="text-lg">Jenis CSS: Inline, Internal, External</p>
+    </section>
+
+    <!-- JavaScript -->
+    <section id="js" class="bg-white bg-opacity-90 p-6 rounded-xl shadow-xl border-4 border-green-500">
+      <h2 class="text-3xl font-['Righteous'] text-green-800 text-center mb-4">🔥 Pengenalan JavaScript 🔥</h2>
+      <p class="text-lg mb-4"><span class="text-red-700 font-semibold">JavaScript</span> membuat web interaktif. Contoh:</p>
+      <pre class="bg-black text-green-400 p-4 rounded-lg overflow-auto shadow-inner">
+&lt;button onclick="halo()"&gt;Klik Aku&lt;/button&gt;
+&lt;script&gt;
+function halo() {
+  alert("Halo Dunia!");
+}
+&lt;/script&gt;
+      </pre>
+      <button onclick="halo()" class="bg-gradient-to-r from-red-600 via-yellow-400 to-green-600 text-white px-6 py-2 rounded-lg shadow-lg hover:opacity-90 transition">Klik Aku</button>
+    </section>
+
+    <!-- Tailwind -->
+    <section id="tailwind" class="bg-white bg-opacity-90 p-6 rounded-xl shadow-xl border-4 border-yellow-400">
+      <h2 class="text-3xl font-['Righteous'] text-green-800 text-center mb-4">🔥 Tailwind CSS 🔥</h2>
+      <p class="text-lg mb-2">Tailwind CSS adalah framework utility-first untuk styling cepat. Contoh tombol:</p>
+      <pre class="bg-black text-green-300 p-4 rounded-lg overflow-auto shadow-inner">
+&lt;button class="bg-green-500 text-white px-4 py-2 rounded-lg hover:bg-green-700"&gt;Klik Saya&lt;/button&gt;
+      </pre>
+      <button class="mt-4 bg-gradient-to-r from-red-600 via-yellow-400 to-green-600 text-white px-6 py-2 rounded-lg shadow-lg hover:opacity-90 transition">Tombol Tailwind</button>
+    </section>
+
+    <!-- KESAN & PESAN -->
+    <section id="kesan" class="bg-white bg-opacity-90 p-6 rounded-xl shadow-xl border-4 border-green-500">
+      <h2 class="text-3xl font-['Righteous'] text-green-800 text-center mb-4">🔥 Kesan & Pesan 🔥</h2>
+      <p class="mb-2">Belajar web membuat saya terbiasa menghadapi error, memahami HTML, CSS, JS, dan Tailwind. Proses ini melatih kesabaran, ketelitian, dan kreativitas.</p>
+      <p class="mb-2">Tugas dan proyek kecil memberi tantangan baru. Belajar dengan teman dan bimbingan guru membuat pengalaman lebih menyenangkan.</p>
+      <video controls class="mx-auto rounded-lg shadow-md w-full max-w-lg border-4 border-yellow-300">
+        <source src="video-saya.mp4" type="video/mp4">
+        Browser Anda tidak mendukung video.
+      </video>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="bg-gradient-to-r from-green-700 via-yellow-500 to-red-700 text-white p-4 text-center mt-12 border-t-4 border-yellow-300">
+    <p class="font-['Righteous'] tracking-widest">© 2025 — Reggae Vibes 🎶</p>
+  </footer>
+
+  <script>
+    function halo() {
+      alert("Halo! Selamat Datang di Dunia JavaScript 🌿🎶");
+    }
+  </script>
+</body>
+</html>
